@@ -1,0 +1,147 @@
+body {
+    font-family: sans-serif;
+    -webkit-font-smoothing: auto;
+    -moz-font-smoothing: auto;
+    -moz-osx-font-smoothing: grayscale;
+    font-smoothing: auto;
+    text-rendering: optimizeLegibility;
+    font-smooth: always;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    background-color: #f2f2f2;
+    margin: 0%;
+    
+  }
+  h1 {
+    font-size: 2rem;
+    
+  }
+  #h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #0056b3;
+  }
+  p {
+    line-height: 1.4;
+  }
+  .img {
+    opacity: 0.55;
+    fill: #0056b3;
+    filter: invert(18%) sepia(99%) saturate(2569%) hue-rotate(18deg) brightness(96%) contrast(102%);
+    vertical-align: middle; 
+  }
+  
+  header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0rem 2rem;
+    background-color: #bebef6;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0; 
+  }
+  
+  li {
+    display: inline-block; 
+    margin: 0 0.05rem;
+  }
+  
+  a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+  
+  .logo-text {
+    font-family: cursive;
+    font-style: italic;
+    font-size: large; 
+    vertical-align: middle; 
+    opacity: 0.7;
+  }
+
+a.home-link:active {
+  background-color: red; 
+  padding: 24px 4px 24px 8px;
+}
+
+a.home-link:hover {
+  background-color: red; 
+  padding: 24px 4px 24px 8px;
+}
+
+a.nav-link:active,
+a.nav-link:hover {
+  background-color: red; 
+  padding: 24px 4px 24px 8px; 
+  box-decoration-break: clone; 
+}
+a#about-link.active,a#contact-link.active,
+a#project-link.active {
+  background-color: red; 
+  padding: 24px 4px 24px 8px; 
+  box-decoration-break: clone; 
+}
+a.nav-link.active {
+  background-color: red; 
+  padding: 24px 4px 24px 8px; 
+  box-decoration-break: clone; 
+}
+
+
+.page-image {
+  float: left; 
+  margin-right: 70px;
+  max-width: 36%;
+  height: auto;
+  
+}
+
+.content {;
+  margin-left: 40px; 
+}
+
+
+footer {
+  background-color: #f2f2f2;
+  padding: 0px;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.social-icons {
+  margin-bottom: 0px;
+  width: 100%; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  fill: #ffffff;
+}
+
+.social-icons .icon {
+  margin: 0 30px;
+  width: auto;
+  height: auto;
+  fill: #ffffff;
+  width: auto;
+  filter: brightness(300%);
+
+}
+
+.watermark {
+  font-size: 15px;
+  color: #ffffff;
+  margin: 0%;
+}
